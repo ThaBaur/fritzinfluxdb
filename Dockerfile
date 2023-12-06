@@ -7,8 +7,7 @@ RUN mkdir /app
 WORKDIR /app
 
 # Copy required files to /app
-COPY fritzinfluxdb.py requirements.txt /app/
-COPY fritzinfluxdb /app/fritzinfluxdb
+COPY . /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
