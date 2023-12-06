@@ -114,7 +114,7 @@ tr069_services.extend([
         "name": "UserInterface:1",
         "actions": ["GetInfo"],
         "value_instances": {
-            "NewUpgradeAvailable": "upgrade_available:bool",
+            "NewUpgradeAvailable": "upgrade_available:int",
             "NewX_AVM-DE_UpdateState": "update_state:str"
         }
     },
