@@ -3,3 +3,4 @@ fritzinfluxdb.ini
 .idea
 __pycache__
 .DS_Store
+my-*.ini
